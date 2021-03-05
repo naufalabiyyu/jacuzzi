@@ -267,7 +267,7 @@
 
 	lightbox.option( {
 		showImageNumberLabel: false,
-		disableScrolling: true
+		disableScrolling: false
 	} );
 
 	/*----------------------------------------------------*/

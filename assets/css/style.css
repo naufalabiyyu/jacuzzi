@@ -2036,7 +2036,7 @@ header .right-bl .search-content button {
     right: 0;
     top: 0;
     bottom: 0;
-    opacity: 0;
+    opacity: 50;
     visibility: hidden;
     background-image: linear-gradient(to right, rgba(0, 180, 214, 0.64) 0%, rgba(124, 105, 227, 0.64) 100%);
 }
