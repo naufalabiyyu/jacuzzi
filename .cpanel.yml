@@ -1,7 +1,7 @@
 ---
 deployment:
   tasks:
-    - export DEPLOYPATH=/home/kenkxhy/public_html/
+    - export DEPLOYPATH=/home/kenkxhgy/jacuzzicraft.com/
     - /bin/cp -R assets $DEPLOYPATH
     - /bin/cp -R documentation $DEPLOYPATH
     - /bin/cp -R source $DEPLOYPATH
