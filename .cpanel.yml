@@ -1,0 +1,33 @@
+---
+deployment:
+  tasks:
+    - export DEPLOYPATH=/home/kenkxhy/jacuzzicarft.com
+    - /bin/cp -R assets $DEPLOYPATH
+    - /bin/cp -R documentation $DEPLOYPATH
+    - /bin/cp -R source $DEPLOYPATH
+    - /bin/cp 404.html $DEPLOYPATH
+    - /bin/cp about.html $DEPLOYPATH
+    - /bin/cp blog-full.html $DEPLOYPATH
+    - /bin/cp blog-left.html $DEPLOYPATH
+    - /bin/cp blog-left.html $DEPLOYPATH
+    - /bin/cp contacts.html $DEPLOYPATH
+    - /bin/cp faq.html $DEPLOYPATH
+    - /bin/cp gallery-extended.html $DEPLOYPATH
+    - /bin/cp gallery-full.html $DEPLOYPATH
+    - /bin/cp gallery-masonry.html $DEPLOYPATH
+    - /bin/cp games.html $DEPLOYPATH
+    - /bin/cp gulpfile.js $DEPLOYPATH
+    - /bin/cp index.html $DEPLOYPATH
+    - /bin/cp package.json $DEPLOYPATH
+    - /bin/cp post.html $DEPLOYPATH
+    - /bin/cp price.html $DEPLOYPATH
+    - /bin/cp single-image.html $DEPLOYPATH
+    - /bin/cp single-team.html $DEPLOYPATH
+    - /bin/cp skyblock.html $DEPLOYPATH
+    - /bin/cp statistic.html $DEPLOYPATH
+    - /bin/cp survival.html $DEPLOYPATH
+    - /bin/cp team.html $DEPLOYPATH
+    - /bin/cp testimonials.html $DEPLOYPATH
+    - /bin/cp typography.html $DEPLOYPATH
+
+    
