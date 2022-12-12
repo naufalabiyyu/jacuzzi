@@ -1,0 +1,33 @@
+version: '3'
+services:
+  jacuzzcraft-app:
+    build:
+      context: ./
+      dockerfile: Dockerfile
+    container_name: jacuzzicompro
+    restart: unless-stopped
+    volumes:
+      #- ./:/etc/nginx/conf.f/default.conf:/etc/nginx/conf.d/default.conf
+      - ./:/var/www/html:/usr/share/nginx/html/
+    ports:
+      - 8100:80
+    working_dir: /var/www/html
+
+  # compro-jacuzzi:
+  #     images: nginx:alpine
+  #     container_name: jacuzzi-compro
+  #     restart: unless-stopped
+  #     depends_on:
+  #       - jacuzzcraft-app
+  #     ports:
+  #       - 8100:80
+  #     volumes:
+  #       - ./:/var/www/html
+  #     working_dir: /var/www/html
+  #     network:
+  #       - jacuzzcraft
+
+
+
+
+
